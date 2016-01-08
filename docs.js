@@ -77,8 +77,8 @@ function moveBar(yes) {
 
 function setPreview(view) {
 
-	var previewWidth = 115,
-		previewHeight = 73,
+	var previewWidth = 0,
+		previewHeight = 0,
 		previewSrc = 'pics/preview.jpg',
 		preview = $(_thumbPreview.children(':first')),
 		numPages = (view==1 || view==$('#slider').slider('option', 'max')) ? 1 : 2,
